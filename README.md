@@ -1,4 +1,4 @@
-# Camera Calibration Using Checkerboadr
+# Camera Calibration Using Checkerboard
 
 ### Install OpenCV
 ```bash
@@ -16,7 +16,7 @@ pip install opencv-python
 python export.py <video>
 ```
 - You should manually select the frames to be used for calibration and delete the rest
-- You can set the step to jump by adding argument like `--step 10` 
+- You can set the step to jump by adding an argument like `--step 10` 
 ### 2. Perform camera calibration and save the result
 ```bash
 python calibrate.py <video>
